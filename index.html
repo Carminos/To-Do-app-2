@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App version 1</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header">  
+    <p class="today">TODAY</p>  
+    <p class="date">OCTOBER 9th 2021</p>     
+    </div>
+
+    <div class="content">   
+    <form class="add-item">
+        <input type="text" id="input" placeholder="Add item">
+        <div class="input-buttons">
+        <a href="#" class="add-todo">
+        <i class="fa fa-plus"></i></a>
+    </form>
+    </div>
+
+    <ul class="list">
+        <li>
+        <input type="checkbox" id="item-1">
+        <label for="todo-1">
+        <span class="check"></span>6:00am   Workout
+        </label> 
+        </li>
+        
+        <li>
+        <input type="checkbox" id="item-2">
+        <label for="todo-2">
+        <span class="check"></span>7:00am   Meditate
+        </label> 
+        </li>
+        
+        <li>
+        <input type="checkbox" id="item-3">
+        <label for="todo-3">
+        <span class="check"></span>9:00am   Team Meeting
+        </label> 
+        </li>
+
+        <li>
+        <input type="checkbox" id="item-4">
+        <label for="todo-4">
+        <span class="check"></span>12:00pm  BOGO @ Buca's
+        </label> 
+        </li>
+
+        <li>
+        <input type="checkbox" id="item-5">
+        <label for="todo-5">
+        <span class="check"></span>4:30pm  Press Briefing
+        </label> 
+        </li>
+
+        <li>
+        <input type="checkbox" id="item-6">
+        <label for="todo-6">
+        <span class="check"></span>7:30pm  Surprise Party
+        </label> 
+        </li>
+
+        <li>
+        <input type="checkbox" id="item-7">
+        <label for="todo-7">
+        <span class="check"></span> 11:45pm  Flight to Montreal
+        </label> 
+        </li>
+    <div class="circle-1"></div>
+</div>
+
+<div class="footer">
+    <div class="navbar">
+    <icon class="icons">
+    <i class="fa fa-calendar-alt"></i>
+    <i class="fa fa-comments"></i>
+    <i class="fa fa-bars"></i>
+    <i class="fa fa-trash-o"></i>
+    <i class="fa fa-edit"></i>
+    <i class="fa fa-search"></i>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+</div>
+</div>
+    
+<script src="index.js"></script>
+<script src="https://use.fontawesome.com/0eb3a74e90.js"></script>
+</body>
+
+</html>
